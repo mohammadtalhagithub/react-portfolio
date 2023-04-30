@@ -1,0 +1,7 @@
+1. git init
+2. git status
+3. git add filename OR . for all (now files are in staging area, changes are hold here before committing it.) 
+4. git commit -m "commit message" {commit copies our added files from staging area to the local repository in our local machine}
+5. git branch -M master OR main {following steps are to push those commits onto a cloud repository, GitHub, if we want to}.
+6. git remote add origin https://github.com/mohammadtalhagithub/RepositoryName.git
+7. git push -u origin master OR main
