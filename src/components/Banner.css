@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 88vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)),
+        url(images/Firewatch_Wallpaper_cropped.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #B1A38B;
+}
+
+.navinavi {
+    background-color: #B1A38B;
+    padding: 0;
+}
+
+.navi {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80px;
+    background-color: #B1A38B;
+    font-weight: bold;
+    /* font-size:xx-large; */
+
+}
+
+.navi .navbar-brand {
+    font-size: 2rem;
+}
