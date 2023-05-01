@@ -1,0 +1,10 @@
+.section-container {
+    padding: 25px;
+}
+.section-container p {
+    color: red;
+}
+
+.section-container h2 {
+    color: rgb(20, 203, 26);
+}

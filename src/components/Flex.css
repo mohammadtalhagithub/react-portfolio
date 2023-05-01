@@ -1,0 +1,22 @@
+
+.main {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.sub2 {
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+}
+.sub3 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}

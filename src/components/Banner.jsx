@@ -1,13 +1,12 @@
 import React from "react";
 import "./Banner.css";
-// import Navbar from "./Navbar";
+import TopContainer from './TopContainer';
 
 
 function Banner() {
-    return (
-        
+    return ( 
     <div className="banner">
-        
+        <TopContainer />
         
     </div>
     );

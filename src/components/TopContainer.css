@@ -1,0 +1,36 @@
+.top-container {
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: "Helvetica Neue", Verdana, Geneva, Tahoma, sans-serif; */
+    /* background-color: red; */
+    text-align: center;
+}
+
+#top-name {
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    color: red;
+    transition: font-size 0.3s;
+
+}
+
+#top-caption {
+    color: #7B030D;
+    font-family: monospace;
+    font-size: 1.5em;
+    /* 16px = 100% = 1em 90px*/
+    line-height: 3;
+    font-weight: bold;
+    transition: font-size 0.5s;
+}
+
+/* Media Query */
+@media screen and (max-width: 550px) {
+    #top-name {
+        font-size: 35px;
+    }
+    #top-caption {
+        font-size: 1.2em;
+    }
+}
