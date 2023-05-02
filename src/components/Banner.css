@@ -11,5 +11,19 @@
         url(images/Firewatch_Wallpaper_cropped.jpg);
     background-size: cover;
     background-position: center;
+    transition: height 0.9s;
 }
 
+/* Media Query */
+@media screen and (max-width: 550px) {
+    .banner {
+        height: 75vh;
+    }
+    
+}
+@media screen and (max-height: 740px) {
+    .banner {
+        height: 80vh;
+    }
+    
+}

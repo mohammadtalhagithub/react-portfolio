@@ -3,16 +3,22 @@
     /* font-family: "Helvetica Neue", Verdana, Geneva, Tahoma, sans-serif; */
     /* background-color: red; */
     text-align: center;
+    
+    /* position: absolute; */
+    
+    /* bottom: 0px; */
+    /* top: 10px; */
 }
+
+
 
 #top-name {
     font-family: 'Moon Dance', cursive;
     font-family: 'Pacifico', cursive;
     font-family: 'Secular One', sans-serif;
+    
     font-size: 50px;
-    color: red;
-    transition: font-size 0.3s;
-
+    transition: 0.3s;
 }
 
 #top-caption {
@@ -22,20 +28,25 @@
     /* 16px = 100% = 1em 90px*/
     line-height: 3;
     font-weight: bold;
-    transition: font-size 0.5s;
+    transition: 0.3s;
 }
 
 /* Media Query */
 @media screen and (max-width: 550px) {
     #top-name {
-        font-size: 35px;
+        font-size: 2rem;
     }
     #top-caption {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 }
 
-.bottom-container {
-    text-align: center;
-    color: purple;
+@media screen and (max-width: 425px) {
+    #top-name {
+        font-size: 30px;
+    }
+    #top-caption {
+        font-size: 1.0rem;
+        
+    }
 }
