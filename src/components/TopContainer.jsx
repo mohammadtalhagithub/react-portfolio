@@ -1,27 +1,6 @@
 import React from 'react';
 import './TopContainer.css';
 
-// let c = "b";
-
-// const customStyle = {
-//     color: "yellowgreen",
-//     borderRadius: "30px"
-// }
-
-// if (c === "b") {
-//     customStyle.color = "blue";
-// }
-// else if (c === "r") {
-//     customStyle.color = "red";
-// }
-// else if (c === "g") {
-//     customStyle.color = "green";
-// }
-
-// style={customStyle}
-
-
-
 function TopContainer(props) {
     return (
         <div className="top-container" style={props.thisStyle}>
@@ -34,3 +13,24 @@ function TopContainer(props) {
 }
 
 export default TopContainer;
+
+/*
+let c = "b";
+
+const customStyle = {
+    color: "yellowgreen",
+    borderRadius: "30px"
+}
+
+if (c === "b") {
+    customStyle.color = "blue";
+}
+else if (c === "r") {
+    customStyle.color = "red";
+}
+else if (c === "g") {
+    customStyle.color = "green";
+}
+
+style={customStyle}
+*/

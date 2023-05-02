@@ -15,7 +15,7 @@
 }
 
 /* Media Query */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     .banner {
         height: 75vh;
     }

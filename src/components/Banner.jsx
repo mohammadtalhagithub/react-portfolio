@@ -16,10 +16,10 @@ const bottomStyle = {
 }
 
 const customText = {
-    name1 : "Mohammad Talha",
-    name2 : "",
-    caption1 : "A Mechanical Engineer, and a Programmer",
-    caption2 : "Success is a series of small wins.- Jaime Tardy",
+    name1: "Mohammad Talha",
+    name2: "",
+    caption1: "A Mechanical Engineer, and a Programmer",
+    caption2: "Success is a series of small wins.- Jaime Tardy",
 
 }
 
@@ -27,14 +27,16 @@ function Banner() {
     return (
         <div className="banner">
             <TopContainer
+                thisStyle={topStyle}
                 thisName={customText.name1}
                 thisCaption={customText.caption1}
-                thisStyle={topStyle}/>
+            />
 
             <TopContainer
+                thisStyle={bottomStyle}
                 thisName={customText.name2}
                 thisCaption={customText.caption2}
-                thisStyle={bottomStyle} />
+            />
         </div>
     );
 }
