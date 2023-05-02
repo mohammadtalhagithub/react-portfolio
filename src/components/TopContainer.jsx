@@ -3,11 +3,10 @@ import './TopContainer.css';
 
 function TopContainer(props) {
     return (
+        <div className="top-container">
+            <h1 id="top-name">{props.topName}</h1>
 
-        <div class="top-container">
-            <h1 id="top-name">Mohammad Talha</h1>
-
-            <p id="top-caption">A Mechanical Engineer, and a Programmer</p>
+            <p id="top-caption">{props.topCaption}</p>
         </div>
     );
 }
